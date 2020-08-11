@@ -1,0 +1,103 @@
+/* CSS Styling for the Website Title */
+header{
+    text-align: center;
+    background-color: white;
+}
+h1.title_part1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.2vw;
+    color: #2C2F1D;
+    margin: 0px;
+    padding: 3.4vw 0px 3.4vw 0px;
+}
+span.title_part2{
+    font-weight: 100;
+    font-style: italic;
+    color: #72843E;
+}
+
+/* CSS Styling for Overall Container */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.main_container{
+    /* top, right, bottom, left */
+    margin: 0px;
+    padding: 0px 16.5vw 0px 16.5vw;
+}
+table.grouped{
+    margin: 0px;
+    padding: 0px;
+}
+td.door{
+    margin: 0px;
+    padding: 0px;
+}
+td.tile_cell{
+    margin: 0px;
+    padding: 0px;
+}
+td.row{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+tr{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* CSS Styling for "Door" Image */
+img.door_img{
+    width: 7vw;
+    height: auto;
+    padding: 0px 1vw 2.8vw 0px;
+}
+
+/* CSS Styling for Address Texts */
+p.address{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 0.9vw;
+  color: #f0f0f0;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* CSS Styling for Small print */
+
+div.boc{
+  height: 5.0vw;
+  width: 1.0vw;
+  margin: 0px;
+  padding: 0px;
+}
+
+p#small_print{
+  font-family:"Montserrat";
+  font-weight: 300;
+  font-size: 0.7vw;
+  font-style: italic;
+  color: #72843E;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* CSS Styling for Registering Button */
+div.button:hover{
+    background-color: #2C2F1D;
+}
+p.button_text{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.4vw;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 1.2vw;
+    padding-left: 0.3vw;
+}
